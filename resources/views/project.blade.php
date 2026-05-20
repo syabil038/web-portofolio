@@ -712,7 +712,7 @@ body {
             </div>
 
             <div class="hero-image">
-                <img src="/download.jpg" alt="download">
+                <img src="{{ asset('IND_7168.JPG') }}" alt="Foto profil Syabil">
             </div>
         </div>
     </div>
@@ -728,7 +728,7 @@ body {
         </div>
 
         @php
-            $cvImage = file_exists(public_path('cv.jpg')) ? asset('cv.jpg') : asset('download.jpg');
+            $cvImage = file_exists(public_path('cv.jpg.png')) ? asset('cv.jpg.png') : asset('download.jpg');
         @endphp
 
         <div class="cv-preview">
@@ -748,14 +748,7 @@ body {
 
             <div class="about-content">
                 <div class="about-image">
-                    <!-- Placeholder untuk gambar tentang -->
-                    <div style="width: 100%; height: 400px; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: var(--dark-color); font-size: 1.2rem; font-weight: bold; box-shadow: var(--shadow);">
-                        <div style="text-align: center; padding: 20px;">
-                            <i class="fas fa-user-tie" style="font-size: 4rem; margin-bottom: 20px; color: var(--primary-color);"></i>
-                            <div>Pengalaman 1+ Tahun</div>
-                            <div style="font-size: 1rem; font-weight: normal; margin-top: 10px;">Dalam pengembangan web</div>
-                        </div>
-                    </div>
+                    <img src="{{ asset('IND_7168.JPG') }}" alt="Foto profil Syabil">
                 </div>
                 <div class="about-text">
                     <h3>Spesialis Pengembangan Web</h3>
@@ -865,7 +858,7 @@ body {
         </div>
 
         <div class="contact-grid">
-            <a href="mailto:sabillataawan123@gmail.com" class="contact-card">
+            <a href="mailto:syabilaw712@gmail.com" class="contact-card">
                 <i class="fas fa-envelope"></i>
                 <div>
                     <strong>Email</strong>
@@ -881,7 +874,7 @@ body {
                 </div>
             </a>
 
-            <a href="https://github.com/syabil038 target="_blank" rel="noopener" class="contact-card">
+            <a href="https://github.com/syabil038" target="_blank" rel="noopener" class="contact-card">
                 <i class="fab fa-github"></i>
                 <div>
                     <strong>GitHub</strong>
